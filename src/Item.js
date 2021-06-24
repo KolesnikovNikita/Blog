@@ -1,5 +1,5 @@
 
-const persons = [{
+const posts = [{
   id: 456,
   text: 'my asian friend',
   image: {
@@ -31,4 +31,4 @@ const persons = [{
 },
 ]
 
-export default persons;
+export default posts;

@@ -4,9 +4,9 @@ import BlogItem from './BlogItem';
 
 const BlogList = (props) => {
   return <div>
-    {props.persons.map((man, index) => {
+    {props.persons.map((post, index) => {
       return (
-        <BlogItem key={index} id={man.id} text={man.text} src={man.image.src} width={man.image.width} height={man.image.height} />
+        <BlogItem key={index} text={post.text} image={post.image} />
       )
     })}
   </div>
